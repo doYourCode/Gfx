@@ -8,7 +8,7 @@
 ***
 ## Roadmap
 * Flexible VBO & VAO creation
-* Performance enhancements with [OSG](https://www.openscenegraph.com/index.php/about/features)
+* Performance enhancements with [OSG](https://www.openscenegraph.com/index.php/about/features) or [SLProject](https://github.com/cpvrlab/SLProject)
 * Batch rendering
 * Proper view frustrum culling
 * Proper occlusion culling using [JANUA](https://github.com/gigc/Janua)
