@@ -93,4 +93,7 @@
   <ItemGroup>
     <Resource Include="res\monkey3.obj" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\Cube_def.txt" />
+  </ItemGroup>
 </Project>
