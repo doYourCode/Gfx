@@ -6,6 +6,17 @@
  ***
 ![last update](https://raw.githubusercontent.com/doYourCode/Gfx/main/doc/img/update_19_09_2022.png)
 ***
+## Roadmap
+* Flexible VBO & VAO creation
+* Performance enhancements with [OSG](https://www.openscenegraph.com/index.php/about/features)
+* Batch rendering
+* Proper view frustrum culling
+* Proper occlusion culling using [JANUA](https://github.com/gigc/Janua)
+* Proper camera movement
+* Proper asset importing using Assimp library
+* Proper vertex & fragment shader examples
+* Heightmap terrain mesh generation examples
+***
 ## References
 [opengl-tutorial.org](http://www.opengl-tutorial.org/)
 [open.gl website](https://open.gl/)
