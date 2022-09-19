@@ -108,6 +108,8 @@
   <ItemGroup>
     <None Include="res\basicShader.frag" />
     <None Include="res\basicShader.vert" />
+    <None Include="res\solidRed.frag" />
+    <None Include="res\solidRed.vert" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\bricks.jpg" />
