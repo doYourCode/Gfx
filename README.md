@@ -1,3 +1,3 @@
 # Gfx
  OpenGL based graphics application for research and academic use.
-![last update]([http://url/to/img.png](https://raw.githubusercontent.com/doYourCode/Gfx/main/doc/img/update_19_09_2022.png))
+![last update](https://raw.githubusercontent.com/doYourCode/Gfx/main/doc/img/update_19_09_2022.png)
