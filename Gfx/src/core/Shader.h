@@ -4,7 +4,9 @@
 #include <glew.h>
 #include <iostream>
 #include <fstream>
+
 #include "Transform.h"
+#include "../utils/Log.h"
 
 namespace Gfx
 {

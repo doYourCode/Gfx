@@ -1,8 +1,6 @@
 #include "ObjLoader.h"
-#include <fstream>
-#include <iostream>
-#include <algorithm>
-#include <map>
+
+// TODO -> Replace all messages with the correct Log system.
 
 namespace Gfx
 {
@@ -52,7 +50,7 @@ namespace Gfx
         }
         else
         {
-            std::cerr << "Unable to load mesh: " << fileName << std::endl;
+            LOG_CORE_ERROR("Unable to load mesh: " + fileName + "\n");
         }
     }
 

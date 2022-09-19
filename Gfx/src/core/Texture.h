@@ -2,9 +2,10 @@
 
 #include <string>
 #include <glew.h>
-#include "../utils/stb_image.h"
 #include <iostream>
 
+#include "../utils/stb_image.h"
+#include "../utils/Log.h"
 
 namespace Gfx
 {

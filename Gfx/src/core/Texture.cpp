@@ -9,7 +9,7 @@ namespace Gfx
         unsigned char* data = stbi_load((fileName).c_str(), &width, &height, &numComponents, 4);
 
         if (data == NULL)
-            std::cerr << "Unable to load texture: " << fileName << std::endl;
+        LOG_CORE_ERROR("Unable to load texture: " + fileName);
 
         glGenTextures(1, &m_texture);
         glBindTexture(GL_TEXTURE_2D, m_texture);

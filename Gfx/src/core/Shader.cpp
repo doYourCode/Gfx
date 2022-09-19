@@ -94,7 +94,8 @@ namespace Gfx
             else
                 glGetShaderInfoLog(shader, sizeof(error), NULL, error);
 
-            std::cerr << errorMessage << ": '" << error << "'" << std::endl;
+            LOG_CORE_ERROR(errorMessage + ": '" + error + "'");
+
         }
     }
 
@@ -103,7 +104,7 @@ namespace Gfx
         GLuint shader = glCreateShader(type);
 
         if (shader == 0)
-            std::cerr << "Error compiling shader type " << type << std::endl;
+            LOG_CORE_ERROR("Error compiling shader type!");
 
         const GLchar* p[1];
         p[0] = text.c_str();

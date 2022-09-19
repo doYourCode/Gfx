@@ -18,9 +18,7 @@ static const int DISPLAY_HEIGHT = 720;
 
 int main(int argc, char** argv)
 {
-	int a = 69;
-	std::string name = "Caio";
-	Log::Trace("log test %d %s", a, name);
+	Gfx::Log::Init();
 
 	Display display(DISPLAY_WIDTH, DISPLAY_HEIGHT, "OpenGL");
 	

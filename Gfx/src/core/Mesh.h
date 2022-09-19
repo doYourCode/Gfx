@@ -1,16 +1,18 @@
 #pragma once
 
-#include <glew.h>
-#include <glm.hpp>
-#include <string>
-#include <vector>
-#include "../utils/ObjLoader.h"
-#include "../utils/utils.h"
 #include <map>
 #include <algorithm>
 #include <fstream>
 #include <iostream>
+#include <string>
+#include <vector>
+
+#include <glew.h>
+#include <glm.hpp>
 #include <stdlib.h>
+
+#include "../utils/ObjLoader.h"
+#include "../utils/utils.h"
 
 namespace Gfx
 {
