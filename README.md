@@ -7,6 +7,7 @@
 ![last update](https://raw.githubusercontent.com/doYourCode/Gfx/main/doc/img/update_19_09_2022.png)
 ***
 ## Roadmap
+* Refactor the logging system (priority)
 * Flexible VBO & VAO creation
 * Performance enhancements with [OSG](https://www.openscenegraph.com/index.php/about/features) or [SLProject](https://github.com/cpvrlab/SLProject)
 * Batch rendering
